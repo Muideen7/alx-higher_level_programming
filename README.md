@@ -12,7 +12,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 ## Files
-All of the following files are programs written in C:
+All of the following files are programs written in python programming:
 * 0x00-`python-hello_world`
 * 0x01-`python_if_else_loops_functions`
 * 0x02-`python-import_module`
