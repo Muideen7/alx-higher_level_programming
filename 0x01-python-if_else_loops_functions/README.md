@@ -1,11 +1,11 @@
 # If/else, loops, functions
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about if/else statements, loops, range and functions in **Python**.
+Project done during **Full Stack Software Engineering studies** at **alx_Africa**. It aims to learn about if/else statements, loops, range and functions in **Python**.
 
 ## Technologies
 * Shell Scripts are written in Bash 4.3.11(1)
 * Python Scripts are written with Python 3.4.3
-* C files are compiled using `gcc 4.8.4`
-* Tested on Ubuntu 14.04 LTS
+* C files are compiled using `gcc 5.1.4`
+* Tested on Ubuntu 22.04 LTS
 
 ## Files
 | Filename | Description |
