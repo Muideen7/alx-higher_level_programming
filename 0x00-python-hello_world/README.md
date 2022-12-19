@@ -2,10 +2,13 @@
 Project done during **Full Stack Software Engineering studies** at **alx_africa**. It aims to learn about variables, basics commands (print) and handle strings with **Python**.
 
 ## Technologies
-* Shell Scripts are written in Bash 4.3.11(1)
-* Python Scripts are written with Python 3.4.3
-* C files are compiled using `gcc 5.1.4`
-* Tested on Ubuntu 22.04 LTS
+* Scripts written in `Bash 5.1.16(1)`
+* C files are compiled using `gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0`
+* C files are written according to the `C90 standard`
+* Tested on `Ubuntu 22.04 LTS`
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ## Files
 | Filename | Description |
