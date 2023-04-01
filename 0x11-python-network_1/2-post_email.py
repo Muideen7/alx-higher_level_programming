@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-"""
-Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).
+"""A script that:
+- takes in a URL
+- sends a POST request to the passed URL
+- takes email as a parameter
+- displays the body of the response
 """
 import urllib.request
 import urllib.parse
