@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""
-Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response.
+"""A script that
+- takes in a URL
+- sends a request to the URL
+- displays the body of the response.
 """
 import requests
 import sys
