@@ -1,21 +1,16 @@
 #!/usr/bin/node
 
 const request = require('request');
+const episodeNum = process.argv[2];
+const API_URL = 'https://swapi-api.hbtn.io/api/films/';
 
-// Movie ID (episode number)
-const movieID = process.argv[2];
-
-// API URL
-const apiUrl = `https://swapi-api.alx-tools.com/api/films/${movieID}`;
-
-// Send GET request to the Star Wars API
-request(apiUrl, function(error, response, body) {
-  if (!error && response.statusCode === 200) {
-    const movieData = JSON.parse(body);
-    const movieTitle = movieData.title;
-    console.log(`Title of Episode ${movieID}: ${movieTitle}`);
+request(API_URL + episodeNum, function (err, response, body) {
+  if (err) {
+    console.log(err);
+  } else if (response.statusCode === 200) {
+    const responseJSON = JSON.parse(body);
+    console.log(responseJSON.title);
   } else {
-    console.log('Error fetching movie data.');
+    console.log('Error code: ' + response.statusCode);
   }
 });
-
